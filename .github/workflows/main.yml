@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Upgraded v4 to v4.2.2 (or v4 latest release) to native Node 24 support
+    # Use the official updated release tag
     - name: Checkout Repository Code
       uses: actions/checkout@v4.2.2
 
-    # Upgraded v5 to v5.4.0 (or v5 latest release) to native Node 24 support
+    # Use the official updated release tag
     - name: Set up Python
       uses: actions/setup-python@v5.4.0
       with:
