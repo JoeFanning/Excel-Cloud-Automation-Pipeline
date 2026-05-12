@@ -6,9 +6,13 @@ on:
     - cron: '0 17 * * 5'
   workflow_dispatch: # This adds the manual "Run Now" button on GitHub
 
+# This handles the GitHub Node environment upgrade smoothly
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   run-automation:
-    runs-on: ubuntu-latest # Fixed the previous typo!
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository Code
