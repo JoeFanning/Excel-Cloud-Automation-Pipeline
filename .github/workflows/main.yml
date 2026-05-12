@@ -6,20 +6,18 @@ on:
     - cron: '0 17 * * 5'
   workflow_dispatch: # This adds the manual "Run Now" button on GitHub
 
-# This handles the GitHub Node environment upgrade smoothly
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   run-automation:
     runs-on: ubuntu-latest
 
     steps:
+    # Upgraded v4 to v4.2.2 (or v4 latest release) to native Node 24 support
     - name: Checkout Repository Code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4.2.2
 
+    # Upgraded v5 to v5.4.0 (or v5 latest release) to native Node 24 support
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v5.4.0
       with:
         python-version: '3.11'
 
