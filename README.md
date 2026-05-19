@@ -60,7 +60,7 @@ For a seamless test run, please ensure your Excel column headers match this exac
 💡 **Tip:** A ready-to-use sample dataset file is included in the `input/` directory so you can test-run the pipeline immediately.
 
 ---
-## 📥 Instant Desktop Testing & Custom Routing
+## 📥 Instant Desktop(Windows) Testing & Custom Routing
 
 Instead of editing the raw Python code to route the final sales report to your inbox, you can use the pre-compiled standalone application layout. 
 
