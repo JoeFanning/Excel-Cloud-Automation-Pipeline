@@ -1,12 +1,5 @@
 # 📊 Cloud Sales Analysis & Excel Automation Pipeline
 
-## 📥 Instant Desktop Testing
-[![Download App](https://shields.io)](https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline/releases/download/v1.0.0/sales_gui.exe)
-
-> **How to Test:** Click the green badge above to download the standalone `sales_gui.exe` application [GitHub Cloud Upload]. Save it to your computer, open it, and type your email address to instantly run the automation pipeline and receive your sample Excel reports! *(No Python or PyCharm installation required).*
-
----
-
 A serverless, cloud-based Python pipeline designed to automate the merging, analysis, and reporting of weekly sales data [GitHub Cloud Upload]. This system transforms raw data into multi-tab executive reports and visual dashboards, deployed directly in the cloud.
 
 ## 🚀 Key Features
@@ -43,28 +36,18 @@ The calculation engine relies on a strict database schema. If you load raw data 
 * **Mismatched Headers:** If another developer imports data with different column names (such as `Total_Sales` instead of `Revenue`), **the calculation engine will throw a key error and crash**.
 * **Fixing Layout Changes:** If your source data layout changes, you must update the column tracking keys inside `src/clean_sort_data.py` and `src/calculations.py` to match your new headers.
 
-## ✉️ Customizing Email Recipients
+## 📥 Instant Desktop Testing & Custom Routing
 
-By default, the automated report routes directly to a pre-configured stakeholder address. If you are a developer forks this project and want the email directed to your own inbox, follow these steps:
+Instead of editing the raw Python code to route the final sales report to your inbox, you can use our pre-compiled standalone application layout. 
 
-1. Open `main.py` in your code editor.
-2. Scroll down to **Step 5 (Send ONE Final Email)** inside the `main()` function block.
-3. Replace the target email string with your own address:
-   ```python
-   send_email_report(
-       "Weekly Sales Dashboard Report",
-       summary_text,
-       "your-custom-email@example.com",  # <-- Change this to your address!
-       attachments,
-       logger
-   )
-   ```
-4. *Note on Testing:* If you are using Resend's default free test tier, your custom address **must** be registered as a verified recipient inside your personal Resend Dashboard, or the transmission will be blocked.
+[![Download App](https://shields.io)](https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline/releases/download/v1.0.0/sales_gui.exe)
 
-## 🚧 Road Map: Upcoming GUI Desktop App
+> **How to Test:** Click the green badge above to download the standalone `sales_gui.exe` application [GitHub Cloud Upload]. Save it to your computer, open it, and type your personal email address into the input box. The application will instantly execute the pipeline data math and dispatch your sample Excel reports straight to your inbox! *(No local Python or PyCharm environment setup required).*
 
-* **In Development:** A native Graphical User Interface (GUI) wrapper application is currently being built for this engine.
-* **The Goal:** Once completed, non-technical users will be able to launch a desktop application, paste their target email addresses into a simple text box, click a button, and handle cloud deployments without editing a single line of Python code.
+## 🚧 Road Map: Upcoming Web GUI Upgrade
+
+* **In Development:** A secure web-based front-end portal integration is currently being mapped out for this engine.
+* **The Goal:** Once completed, non-technical team leads will be able to launch an authenticated web application to track historical pipeline metrics and alter automated subscriber lists on the fly without accessing individual terminal scripts.
 
 ## ⚙️ Setup & Requirements
 
@@ -95,3 +78,4 @@ pip install -r requirements.txt
 1. Go to your repository **Settings** -> **Secrets and variables** -> **Actions** [GitHub Cloud Upload].
 2. Click **New repository secret** [GitHub Cloud Upload].
 3. Create a secret named exactly **`RESEND_API_KEY`** and paste your API key string [GitHub Cloud Upload].
+
