@@ -72,7 +72,7 @@ Instead of editing the raw Python code to route the final sales report to your i
 
 ### 1. Clone the Repo
 ```bash
-git clone [https://github.com](https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline.git)
+git clone https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline.git
 ```
 
 ### 2. Set Up Virtual Environment & Dependencies
