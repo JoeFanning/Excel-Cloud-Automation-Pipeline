@@ -1,6 +1,6 @@
 # 📊 Cloud Sales Analysis & Excel Automation Pipeline
 
-A serverless, cloud-based Python pipeline designed to automate the merging, analysis, and reporting of weekly sales data. This system transforms raw data into multi-tab executive reports and high-impact visual dashboards, deployed directly in the cloud.
+A serverless, cloud-based Python pipeline designed to automate the merging, analysis, and reporting of weekly sales data. This system transforms raw data into multi-tab executive reports and visual dashboards, deployed directly in the cloud.
 
 ## 🚀 Key Features
 
