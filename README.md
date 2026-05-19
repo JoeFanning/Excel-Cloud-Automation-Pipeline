@@ -1,14 +1,14 @@
 # 📊 Cloud Sales Analysis & Excel Automation Pipeline
 
-A serverless, cloud-based Python pipeline designed to automate the merging, analysis, and reporting of weekly sales data [GitHub Cloud Upload]. This system transforms raw data into multi-tab executive reports and visual dashboards, deployed directly in the cloud.
+A serverless, cloud-based Python pipeline designed to automate the merging, analysis, and reporting of weekly sales data. This system transforms raw data into multi-tab executive reports and visual dashboards, deployed directly in the cloud.
 
 ## 🚀 Key Features
 
-* **Serverless Cloud Execution:** Runs entirely in the cloud on a weekly schedule using GitHub Actions [GitHub Cloud Upload].
+* **Serverless Cloud Execution:** Runs entirely in the cloud on a weekly schedule using GitHub Actions.
 * **Data Consolidation:** Automatically merges multiple weekly Excel workbooks into a master dataset.
 * **Multi-Tab Reporting:** Generates a professional `.xlsx` file featuring dedicated sheets for core KPIs.
 * **Visual Dashboards:** Automatically outputs a `.png` graphic dashboard for rapid executive review.
-* **Direct Cloud SDK Delivery:** Integrates natively with the official Resend Python SDK to securely transmit reports without traditional SMTP overhead [Resend API].
+* **Direct Cloud SDK Delivery:** Integrates natively with the official Resend Python SDK(resend.com) to securely transmit reports without traditional SMTP overhead.
 
 ## 📈 Multi-Tab Report Structure
 
@@ -24,9 +24,9 @@ The generated Excel report (`sales_analysis_report.xlsx`) includes the following
 * `src/calculations.py`: The engine performing sales math and trend analysis.
 * `src/io_manager.py`: Manages file merging and complex multi-sheet Excel writing.
 * `src/visuals.py`: Generates graphical charts and dashboards.
-* `src/mailer.py`: Handles secure API email delivery using the official **Resend Python SDK** [Resend API].
+* `src/mailer.py`: Handles secure API email delivery using the official **Resend Python SDK** (resend.com)
 * `main.py`: The central coordinator for the entire automation pipeline.
-* `.github/workflows/main.yml`: The GitHub Actions runner script driving the automated cloud executions [GitHub Cloud Upload].
+* `.github/workflows/main.yml`: The GitHub Actions runner script driving the automated cloud executions.
 
 ## ⚠️ Important: Input Data & Header Constraints
 
@@ -42,7 +42,7 @@ Instead of editing the raw Python code to route the final sales report to your i
 
 [![Download App](https://shields.io)](https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline/releases/download/v1.0.0/sales_gui.exe)
 
-> **How to Test:** Click the green badge above to download the standalone `sales_gui.exe` application [GitHub Cloud Upload]. Save it to your computer, open it, and type your personal email address into the input box. The application will instantly execute the pipeline data math and dispatch your sample Excel reports straight to your inbox! *(No local Python or PyCharm environment setup required).*
+> **How to Test:** Click the green badge above to download the standalone `sales_gui.exe` application. Save it to your computer, open it, and type your personal email address into the input box. The application will instantly execute the pipeline data math and dispatch your sample Excel reports straight to your inbox! *(No local Python setup required).*
 
 ## 🚧 Road Map: Upcoming Web GUI Upgrade
 
@@ -75,7 +75,10 @@ pip install -r requirements.txt
 3. Keep the file `sales_analysis_report.xlsx` closed locally to avoid `Permission Denied` execution errors.
 
 #### Cloud Production (GitHub Actions)
-1. Go to your repository **Settings** -> **Secrets and variables** -> **Actions** [GitHub Cloud Upload].
-2. Click **New repository secret** [GitHub Cloud Upload].
-3. Create a secret named exactly **`RESEND_API_KEY`** and paste your API key string [GitHub Cloud Upload].
+1. Go to your repository **Settings** -> **Secrets and variables** -> **Actions**.
+2. Click **New repository secret**.
+3. Create a secret named exactly **`RESEND_API_KEY`** and paste your API key string.
+
+## 📄 License
+This project is open-source software created by **Joe Fanning** and is licensed under the [MIT License](LICENSE).
 
