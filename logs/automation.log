@@ -256,3 +256,807 @@ Name: TotalPrice, dtype: object
 2026-05-19 12:03:42,405 - INFO - Attached for API transmission: sales_analysis_report.xlsx
 2026-05-19 12:03:42,405 - INFO - Connecting to Resend Cloud Engine API...
 2026-05-19 12:03:43,853 - INFO - Report safely accepted by Resend and dispatched to client@example.com
+2026-05-19 12:32:57,459 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 12:32:57,537 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 12:32:57,694 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 12:32:57,772 - INFO - Data cleaning completed.
+2026-05-19 12:32:57,772 - INFO - Data sorting completed.
+2026-05-19 12:32:57,772 - INFO - Performing calculations...
+2026-05-19 12:32:57,787 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 12:32:57,787 - INFO - Total Units Sold        : 11,057
+2026-05-19 12:32:57,787 - INFO - Total Transactions      : 2,000
+2026-05-19 12:32:57,787 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 12:32:57,787 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:32:57,787 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:32:57,787 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 12:32:57,787 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:32:57,787 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:32:57,787 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 12:32:57,787 - INFO - Generating multi-chart dashboard...
+2026-05-19 12:32:58,778 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 12:32:59,818 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 12:32:59,834 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 12:32:59,834 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 12:32:59,834 - INFO - Successfully added sheet: Top Products
+2026-05-19 12:32:59,834 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 12:32:59,834 - INFO - Successfully added sheet: Time of Day
+2026-05-19 12:32:59,834 - INFO - Successfully added sheet: Payment Types
+2026-05-19 12:32:59,865 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 12:32:59,865 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 12:32:59,881 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 12:32:59,881 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 12:33:01,068 - INFO - Report safely accepted by Resend and dispatched to joespirial@hotmail.com
+2026-05-19 12:37:36,684 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 12:37:36,820 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 12:37:36,984 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 12:37:37,058 - INFO - Data cleaning completed.
+2026-05-19 12:37:37,070 - INFO - Data sorting completed.
+2026-05-19 12:37:37,070 - INFO - Performing calculations...
+2026-05-19 12:37:37,083 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 12:37:37,083 - INFO - Total Units Sold        : 11,057
+2026-05-19 12:37:37,083 - INFO - Total Transactions      : 2,000
+2026-05-19 12:37:37,083 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 12:37:37,084 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:37:37,085 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:37:37,091 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 12:37:37,092 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:37:37,092 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:37:37,092 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 12:37:37,093 - INFO - Generating multi-chart dashboard...
+2026-05-19 12:37:38,008 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 12:37:39,197 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 12:37:39,201 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 12:37:39,202 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 12:37:39,204 - INFO - Successfully added sheet: Top Products
+2026-05-19 12:37:39,205 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 12:37:39,207 - INFO - Successfully added sheet: Time of Day
+2026-05-19 12:37:39,209 - INFO - Successfully added sheet: Payment Types
+2026-05-19 12:37:39,244 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 12:37:39,254 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 12:37:39,265 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 12:37:39,265 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 12:37:40,483 - INFO - Report safely accepted by Resend and dispatched to joespirial@hotmail.com
+2026-05-19 12:46:58,485 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 12:46:58,592 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 12:46:58,746 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 12:46:58,814 - INFO - Data cleaning completed.
+2026-05-19 12:46:58,823 - INFO - Data sorting completed.
+2026-05-19 12:46:58,824 - INFO - Performing calculations...
+2026-05-19 12:46:58,832 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 12:46:58,832 - INFO - Total Units Sold        : 11,057
+2026-05-19 12:46:58,832 - INFO - Total Transactions      : 2,000
+2026-05-19 12:46:58,832 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 12:46:58,833 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:46:58,833 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:46:58,837 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 12:46:58,838 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:46:58,839 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 12:46:58,839 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 12:46:58,839 - INFO - Generating multi-chart dashboard...
+2026-05-19 12:46:59,812 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 12:47:00,968 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 12:47:00,971 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 12:47:00,973 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 12:47:00,975 - INFO - Successfully added sheet: Top Products
+2026-05-19 12:47:00,977 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 12:47:00,978 - INFO - Successfully added sheet: Time of Day
+2026-05-19 12:47:00,980 - INFO - Successfully added sheet: Payment Types
+2026-05-19 12:47:01,016 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 12:47:01,030 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 12:47:01,048 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 12:47:01,048 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 12:47:02,274 - INFO - Report safely accepted by Resend and dispatched to joespirial@hotmail.com
+2026-05-19 13:10:15,178 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 13:10:15,273 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 13:10:15,429 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 13:10:15,496 - INFO - Data cleaning completed.
+2026-05-19 13:10:15,496 - INFO - Data sorting completed.
+2026-05-19 13:10:15,496 - INFO - Performing calculations...
+2026-05-19 13:10:15,515 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 13:10:15,515 - INFO - Total Units Sold        : 11,057
+2026-05-19 13:10:15,515 - INFO - Total Transactions      : 2,000
+2026-05-19 13:10:15,515 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 13:10:15,516 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:10:15,516 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:10:15,519 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 13:10:15,519 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:10:15,519 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:10:15,519 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 13:10:15,519 - INFO - Generating multi-chart dashboard...
+2026-05-19 13:10:16,491 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 13:10:17,352 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 13:10:17,355 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 13:10:17,357 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 13:10:17,359 - INFO - Successfully added sheet: Top Products
+2026-05-19 13:10:17,359 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 13:10:17,360 - INFO - Successfully added sheet: Time of Day
+2026-05-19 13:10:17,361 - INFO - Successfully added sheet: Payment Types
+2026-05-19 13:10:17,390 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 13:10:17,392 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 13:10:17,412 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 13:10:17,412 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 13:10:17,884 - INFO - Report safely accepted by Resend and dispatched to joespirial@hotmail.com
+2026-05-19 13:29:37,819 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 13:29:37,915 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 13:29:38,068 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 13:29:38,134 - INFO - Data cleaning completed.
+2026-05-19 13:29:38,142 - INFO - Data sorting completed.
+2026-05-19 13:29:38,142 - INFO - Performing calculations...
+2026-05-19 13:29:38,152 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 13:29:38,152 - INFO - Total Units Sold        : 11,057
+2026-05-19 13:29:38,152 - INFO - Total Transactions      : 2,000
+2026-05-19 13:29:38,152 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 13:29:38,152 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:29:38,152 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:29:38,161 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 13:29:38,161 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:29:38,161 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:29:38,161 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 13:29:38,161 - INFO - Generating multi-chart dashboard...
+2026-05-19 13:29:39,142 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 13:29:40,285 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 13:29:40,286 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 13:29:40,290 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 13:29:40,291 - INFO - Successfully added sheet: Top Products
+2026-05-19 13:29:40,291 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 13:29:40,291 - INFO - Successfully added sheet: Time of Day
+2026-05-19 13:29:40,291 - INFO - Successfully added sheet: Payment Types
+2026-05-19 13:29:40,325 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 13:29:40,335 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 13:29:40,356 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 13:29:40,356 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 13:29:41,142 - INFO - Report safely accepted by Resend and dispatched to joespirial@hotmail.com
+2026-05-19 13:37:06,490 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 13:37:06,591 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 13:37:06,755 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 13:37:06,823 - INFO - Data cleaning completed.
+2026-05-19 13:37:06,824 - INFO - Data sorting completed.
+2026-05-19 13:37:06,824 - INFO - Performing calculations...
+2026-05-19 13:37:06,824 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 13:37:06,824 - INFO - Total Units Sold        : 11,057
+2026-05-19 13:37:06,824 - INFO - Total Transactions      : 2,000
+2026-05-19 13:37:06,824 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 13:37:06,824 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:37:06,840 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:37:06,843 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 13:37:06,843 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:37:06,843 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:37:06,843 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 13:37:06,843 - INFO - Generating multi-chart dashboard...
+2026-05-19 13:37:07,754 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 13:37:08,677 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 13:37:08,682 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 13:37:08,682 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 13:37:08,682 - INFO - Successfully added sheet: Top Products
+2026-05-19 13:37:08,682 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 13:37:08,682 - INFO - Successfully added sheet: Time of Day
+2026-05-19 13:37:08,682 - INFO - Successfully added sheet: Payment Types
+2026-05-19 13:37:08,722 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 13:37:08,737 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 13:37:08,751 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 13:37:08,752 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 13:37:10,115 - INFO - Report safely accepted by Resend and dispatched to joespirial@hotmail.com
+2026-05-19 13:49:35,625 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 13:49:35,719 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 13:49:35,875 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 13:49:35,938 - INFO - Data cleaning completed.
+2026-05-19 13:49:35,953 - INFO - Data sorting completed.
+2026-05-19 13:49:35,953 - INFO - Performing calculations...
+2026-05-19 13:49:35,953 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 13:49:35,953 - INFO - Total Units Sold        : 11,057
+2026-05-19 13:49:35,953 - INFO - Total Transactions      : 2,000
+2026-05-19 13:49:35,953 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 13:49:35,953 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:49:35,953 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:49:35,969 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 13:49:35,969 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:49:35,969 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 13:49:35,969 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 13:49:35,969 - INFO - Generating multi-chart dashboard...
+2026-05-19 13:49:36,922 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 13:49:37,765 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 13:49:37,765 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 13:49:37,765 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 13:49:37,765 - INFO - Successfully added sheet: Top Products
+2026-05-19 13:49:37,765 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 13:49:37,765 - INFO - Successfully added sheet: Time of Day
+2026-05-19 13:49:37,765 - INFO - Successfully added sheet: Payment Types
+2026-05-19 13:49:37,797 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 13:49:37,797 - INFO - Attached for API transmission: sales_dashboard.png
+2026-05-19 13:49:37,812 - INFO - Attached for API transmission: sales_analysis_report.xlsx
+2026-05-19 13:49:37,812 - INFO - Connecting to Resend Cloud Engine API...
+2026-05-19 13:49:38,671 - ERROR - Resend Rejected Request: Response Code 401 - {"statusCode":401,"name":"validation_error","message":"API key is invalid"}
+2026-05-19 14:02:54,622 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 14:02:54,717 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 14:02:54,864 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 14:02:54,933 - INFO - Data cleaning completed.
+2026-05-19 14:02:54,940 - INFO - Data sorting completed.
+2026-05-19 14:02:54,940 - INFO - Performing calculations...
+2026-05-19 14:02:54,948 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 14:02:54,948 - INFO - Total Units Sold        : 11,057
+2026-05-19 14:02:54,948 - INFO - Total Transactions      : 2,000
+2026-05-19 14:02:54,948 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 14:02:54,949 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:02:54,949 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:02:54,953 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 14:02:54,954 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:02:54,955 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:02:54,955 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 14:02:54,955 - INFO - Generating multi-chart dashboard...
+2026-05-19 14:02:55,976 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 14:02:56,796 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 14:02:56,798 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 14:02:56,800 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 14:02:56,801 - INFO - Successfully added sheet: Top Products
+2026-05-19 14:02:56,802 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 14:02:56,803 - INFO - Successfully added sheet: Time of Day
+2026-05-19 14:02:56,804 - INFO - Successfully added sheet: Payment Types
+2026-05-19 14:02:56,831 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 14:02:56,840 - INFO - Attached file for cloud processing: sales_dashboard.png
+2026-05-19 14:02:56,850 - INFO - Attached file for cloud processing: sales_analysis_report.xlsx
+2026-05-19 14:02:56,850 - INFO - Connecting to Resend Cloud Mail Server via SDK...
+2026-05-19 14:02:57,699 - ERROR - Resend SDK Delivery Exception: API key is invalid
+2026-05-19 14:04:35,101 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 14:04:35,197 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 14:04:35,331 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 14:04:35,396 - INFO - Data cleaning completed.
+2026-05-19 14:04:35,403 - INFO - Data sorting completed.
+2026-05-19 14:04:35,403 - INFO - Performing calculations...
+2026-05-19 14:04:35,411 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 14:04:35,411 - INFO - Total Units Sold        : 11,057
+2026-05-19 14:04:35,411 - INFO - Total Transactions      : 2,000
+2026-05-19 14:04:35,411 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 14:04:35,412 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:04:35,412 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:04:35,416 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 14:04:35,417 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:04:35,417 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:04:35,418 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 14:04:35,418 - INFO - Generating multi-chart dashboard...
+2026-05-19 14:04:36,324 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 14:04:37,112 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 14:04:37,114 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 14:04:37,116 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 14:04:37,117 - INFO - Successfully added sheet: Top Products
+2026-05-19 14:04:37,118 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 14:04:37,119 - INFO - Successfully added sheet: Time of Day
+2026-05-19 14:04:37,120 - INFO - Successfully added sheet: Payment Types
+2026-05-19 14:04:37,152 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 14:04:37,161 - INFO - Attached file for cloud processing: sales_dashboard.png
+2026-05-19 14:04:37,171 - INFO - Attached file for cloud processing: sales_analysis_report.xlsx
+2026-05-19 14:04:37,171 - INFO - Connecting to Resend Cloud Mail Server via SDK...
+2026-05-19 14:04:38,259 - INFO - Report successfully accepted by Resend! Message ID: {'id': 'db98259a-1606-4173-b459-1592dd7ca0b2', 'http_headers': {'Date': 'Tue, 19 May 2026 12:04:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '45', 'Connection': 'keep-alive', 'ratelimit-limit': '5', 'ratelimit-policy': '5;w=1', 'ratelimit-remaining': '4', 'ratelimit-reset': '1', 'x-resend-daily-quota': '1', 'x-resend-monthly-quota': '36', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '9fe2f716fe71199c-AMS'}}
+2026-05-19 14:13:25,674 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 14:13:25,768 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 14:13:25,924 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 14:13:26,002 - INFO - Data cleaning completed.
+2026-05-19 14:13:26,018 - INFO - Data sorting completed.
+2026-05-19 14:13:26,018 - INFO - Performing calculations...
+2026-05-19 14:13:26,018 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 14:13:26,018 - INFO - Total Units Sold        : 11,057
+2026-05-19 14:13:26,018 - INFO - Total Transactions      : 2,000
+2026-05-19 14:13:26,018 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 14:13:26,018 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:13:26,018 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:13:26,034 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 14:13:26,034 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:13:26,034 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:13:26,034 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 14:13:26,034 - INFO - Generating multi-chart dashboard...
+2026-05-19 14:13:27,033 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 14:13:28,033 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 14:13:28,033 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 14:13:28,033 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 14:13:28,033 - INFO - Successfully added sheet: Top Products
+2026-05-19 14:13:28,048 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 14:13:28,048 - INFO - Successfully added sheet: Time of Day
+2026-05-19 14:13:28,048 - INFO - Successfully added sheet: Payment Types
+2026-05-19 14:13:28,080 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 14:13:28,080 - INFO - Attached file for cloud processing: sales_dashboard.png
+2026-05-19 14:13:28,095 - INFO - Attached file for cloud processing: sales_analysis_report.xlsx
+2026-05-19 14:13:28,095 - INFO - Connecting to Resend Cloud Mail Server via SDK...
+2026-05-19 14:13:29,001 - INFO - Report successfully accepted by Resend! Message ID: {'id': '66ad9e38-5756-411d-86b1-24a149f32848', 'http_headers': {'Date': 'Tue, 19 May 2026 12:13:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '45', 'Connection': 'keep-alive', 'ratelimit-limit': '5', 'ratelimit-policy': '5;w=1', 'ratelimit-remaining': '4', 'ratelimit-reset': '1', 'x-resend-daily-quota': '2', 'x-resend-monthly-quota': '37', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '9fe3040c4fa40b3c-AMS'}}
+2026-05-19 14:23:07,028 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 14:23:07,138 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 14:23:07,294 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 14:23:07,356 - INFO - Data cleaning completed.
+2026-05-19 14:23:07,372 - INFO - Data sorting completed.
+2026-05-19 14:23:07,372 - INFO - Performing calculations...
+2026-05-19 14:23:07,372 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 14:23:07,372 - INFO - Total Units Sold        : 11,057
+2026-05-19 14:23:07,372 - INFO - Total Transactions      : 2,000
+2026-05-19 14:23:07,372 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 14:23:07,388 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:23:07,388 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:23:07,388 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 14:23:07,388 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:23:07,388 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:23:07,388 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 14:23:07,388 - INFO - Generating multi-chart dashboard...
+2026-05-19 14:23:08,309 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 14:23:09,464 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 14:23:09,467 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 14:23:09,468 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 14:23:09,473 - INFO - Successfully added sheet: Top Products
+2026-05-19 14:23:09,475 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 14:23:09,475 - INFO - Successfully added sheet: Time of Day
+2026-05-19 14:23:09,475 - INFO - Successfully added sheet: Payment Types
+2026-05-19 14:23:09,519 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 14:23:09,528 - INFO - Attached file for cloud processing: sales_dashboard.png
+2026-05-19 14:23:09,540 - INFO - Attached file for cloud processing: sales_analysis_report.xlsx
+2026-05-19 14:23:09,542 - INFO - Connecting to Resend Cloud Mail Server via SDK...
+2026-05-19 14:23:11,374 - INFO - Report successfully accepted by Resend! Message ID: {'id': 'aadd763c-1e63-4b4f-af28-77518f8cfd35', 'http_headers': {'Date': 'Tue, 19 May 2026 12:23:11 GMT', 'Content-Type': 'application/json', 'Content-Length': '45', 'Connection': 'keep-alive', 'ratelimit-limit': '5', 'ratelimit-policy': '5;w=1', 'ratelimit-remaining': '4', 'ratelimit-reset': '1', 'x-resend-daily-quota': '3', 'x-resend-monthly-quota': '38', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '9fe312412c349fb4-AMS'}}
+2026-05-19 14:43:33,761 - INFO - Loaded: sales_feb.xlsx
+2026-05-19 14:43:33,855 - INFO - Loaded: sales_jan.xlsx
+2026-05-19 14:43:33,995 - INFO - Loaded: sales_mar.xlsx
+2026-05-19 14:43:34,073 - INFO - Data cleaning completed.
+2026-05-19 14:43:34,089 - INFO - Data sorting completed.
+2026-05-19 14:43:34,089 - INFO - Performing calculations...
+2026-05-19 14:43:34,089 - INFO - Total Revenue           : €2,207,643.55
+2026-05-19 14:43:34,089 - INFO - Total Units Sold        : 11,057
+2026-05-19 14:43:34,089 - INFO - Total Transactions      : 2,000
+2026-05-19 14:43:34,089 - INFO - Average Order Value     : €1103.82
+
+2026-05-19 14:43:34,089 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:43:34,089 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:43:34,105 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-19 14:43:34,105 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:43:34,105 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-19 14:43:34,105 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-19 14:43:34,105 - INFO - Generating multi-chart dashboard...
+2026-05-19 14:43:35,073 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-19 14:43:35,995 - INFO - File saved to output/merged_sales.xlsx
+2026-05-19 14:43:35,995 - INFO - Successfully added sheet: Executive Summary
+2026-05-19 14:43:35,995 - INFO - Successfully added sheet: Sales by Location
+2026-05-19 14:43:35,995 - INFO - Successfully added sheet: Top Products
+2026-05-19 14:43:35,995 - INFO - Successfully added sheet: Bottom Products
+2026-05-19 14:43:35,995 - INFO - Successfully added sheet: Time of Day
+2026-05-19 14:43:35,995 - INFO - Successfully added sheet: Payment Types
+2026-05-19 14:43:36,042 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-19 14:43:36,057 - INFO - Attached file for cloud processing: sales_dashboard.png
+2026-05-19 14:43:36,073 - INFO - Attached file for cloud processing: sales_analysis_report.xlsx
+2026-05-19 14:43:36,073 - INFO - Connecting to Resend Cloud Mail Server via SDK...
+2026-05-19 14:43:37,049 - INFO - Report successfully accepted by Resend! Message ID: {'id': '13094b89-2f4e-4bf6-b402-36de53d5033d', 'http_headers': {'Date': 'Tue, 19 May 2026 12:43:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '45', 'Connection': 'keep-alive', 'ratelimit-limit': '5', 'ratelimit-policy': '5;w=1', 'ratelimit-remaining': '4', 'ratelimit-reset': '1', 'x-resend-daily-quota': '4', 'x-resend-monthly-quota': '39', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '9fe3303098740a71-AMS'}}
