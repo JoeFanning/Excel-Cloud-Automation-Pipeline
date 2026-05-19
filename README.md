@@ -28,14 +28,38 @@ The generated Excel report (`sales_analysis_report.xlsx`) includes the following
 * `main.py`: The central coordinator for the entire automation pipeline.
 * `.github/workflows/main.yml`: The GitHub Actions runner script driving the automated cloud executions.
 
-## ⚠️ Important: Input Data & Header Constraints
+## ⚠ Data Ingestion & Spreadsheet Header Notice
 
-The calculation engine relies on a strict database schema. If you load raw data files into the `/input` directory, you must ensure your columns match our format perfectly.
+The data pipeline relies on a specific, fixed file layout to process your metrics correctly. The application expects your uploaded Excel spreadsheets to contain exact column headers. If your source files use different names, spellings, or organizational structures, the system will not recognize the data.
 
-* **Header Mapping:** The script looks for explicit, case-sensitive columns (e.g., `Revenue`, `Location`, `Product_ID`, `Timestamp`).
-* **Mismatched Headers:** If another developer imports data with different column names (such as `Total_Sales` instead of `Revenue`), **the calculation engine will throw a key error and crash**.
-* **Fixing Layout Changes:** If your source data layout changes, you must update the column tracking keys inside `src/clean_sort_data.py` and `src/calculations.py` to match your new headers.
+### Required Spreadsheet Schema
 
+For a seamless test run, please ensure your Excel column headers match this exact template:
+
+
+| Required Column Header | Expected Data Type | Example Value | Description |
+| :--- | :--- | :--- | :--- |
+| **TransactionID** | Text / Integer | TX300667 | Unique identifier for the sale |
+| **Date** | Date (YYYY-MM-DD) | 2024-02-27 | The date the transaction occurred |
+| **Time** | Time (HH:MM) | 14:22 | The timestamp of the sale |
+| **StoreID** | Text | S10 | Unique identifier for the retail store |
+| **Location** | Text | Store B | Name or description of the store branch |
+| **Product** | Text | Phone | Name of the item sold |
+| **Quantity** | Integer | 4 | Number of units purchased |
+| **UnitPrice** | Decimal / Float | 5.58 | The price per individual unit |
+| **TotalPrice** | Decimal / Float | 22.32 | Gross price of the item sold (Quantity × UnitPrice) |
+| **PaymentType** | Text | Credit Card | Method used to pay for the transaction |
+| **Cashier** | Text | C1 | ID or name of the employee processing the sale |
+| **StoreManager** | Text | Mia | Name of the manager running the store location |
+| **TimeOfDay** | Text | Afternoon | Categorized period when the sale occurred |
+| **DayOfWeek** | Text | Tuesday | Day name corresponding to the transaction date |
+
+> [!NOTE]
+> I am currently exploring alternative data ingestion methods to further optimize and refine this ingestion pipeline's functionality.
+
+💡 **Tip:** A ready-to-use sample dataset file is included in the `input/` directory so you can test-run the pipeline immediately.
+
+---
 ## 📥 Instant Desktop Testing & Custom Routing
 
 Instead of editing the raw Python code to route the final sales report to your inbox, you can use our pre-compiled standalone application layout. 
