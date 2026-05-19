@@ -66,12 +66,7 @@ Instead of editing the raw Python code to route the final sales report to your i
 
 ![Download App](https://shields.io)](https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline/releases/download/v1.0.0/sales_gui.exe)
 
-> **How to Test:** Click the green badge above to download the standalone `sales_gui.exe` application. Save it to your computer, open it, and type your personal email address into the input box. The application will instantly execute the pipeline data math and dispatch your sample Excel reports straight to your inbox! *(No local Python setup required).*
-
-## 🚧 Road Map: Upcoming Web GUI Upgrade
-
-* **In Development:** A secure web-based front-end portal integration is currently being mapped out for this engine.
-* **The Goal:** Once completed, non-technical team leads will be able to launch an authenticated web application to track historical pipeline metrics and alter automated subscriber lists on the fly without accessing individual terminal scripts.
+> **How to Test:** Click the green link above to download the standalone `sales_gui.exe` application. Save it to your computer, open it, and type your personal email address into the input box. The application will instantly execute the pipeline data math and dispatch your sample Excel reports straight to your inbox! *(No local Python setup required).*
 
 ## ⚙️ Setup & Requirements
 
