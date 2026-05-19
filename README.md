@@ -62,7 +62,7 @@ For a seamless test run, please ensure your Excel column headers match this exac
 ---
 ## 📥 Instant Desktop Testing & Custom Routing
 
-Instead of editing the raw Python code to route the final sales report to your inbox, you can use our pre-compiled standalone application layout. 
+Instead of editing the raw Python code to route the final sales report to your inbox, you can use the pre-compiled standalone application layout. 
 
 ![Download App](https://shields.io)](https://github.com/JoeFanning/Excel-Cloud-Automation-Pipeline/releases/download/v1.0.0/sales_gui.exe)
 
