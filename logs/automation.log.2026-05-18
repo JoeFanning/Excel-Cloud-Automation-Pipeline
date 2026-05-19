@@ -1,0 +1,130 @@
+2026-05-18 16:09:26,478 - INFO - Loaded: sales_feb.xlsx
+2026-05-18 16:09:26,590 - INFO - Loaded: sales_jan.xlsx
+2026-05-18 16:09:26,710 - INFO - Loaded: sales_mar.xlsx
+2026-05-18 16:09:26,782 - INFO - Data cleaning completed.
+2026-05-18 16:09:26,790 - INFO - Data sorting completed.
+2026-05-18 16:09:26,790 - INFO - Performing calculations...
+2026-05-18 16:09:26,798 - INFO - Total Revenue           : €2,207,643.55
+2026-05-18 16:09:26,798 - INFO - Total Units Sold        : 11,057
+2026-05-18 16:09:26,798 - INFO - Total Transactions      : 2,000
+2026-05-18 16:09:26,798 - INFO - Average Order Value     : €1103.82
+
+2026-05-18 16:09:26,798 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:09:26,798 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:09:26,814 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-18 16:09:26,814 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:09:26,814 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:09:26,814 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-18 16:09:26,814 - INFO - Generating multi-chart dashboard...
+2026-05-18 16:09:28,849 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-18 16:09:30,137 - INFO - File saved to output/merged_sales.xlsx
+2026-05-18 16:09:30,137 - INFO - Successfully added sheet: Executive Summary
+2026-05-18 16:09:30,145 - INFO - Successfully added sheet: Sales by Location
+2026-05-18 16:09:30,145 - INFO - Successfully added sheet: Top Products
+2026-05-18 16:09:30,145 - INFO - Successfully added sheet: Bottom Products
+2026-05-18 16:09:30,153 - INFO - Successfully added sheet: Time of Day
+2026-05-18 16:09:30,153 - INFO - Successfully added sheet: Payment Types
+2026-05-18 16:09:30,233 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-18 16:09:30,249 - INFO - Successfully attached: sales_dashboard.png
+2026-05-18 16:09:30,257 - INFO - Successfully attached: sales_analysis_report.xlsx
+2026-05-18 16:41:33,526 - INFO - Loaded: sales_feb.xlsx
+2026-05-18 16:41:33,646 - INFO - Loaded: sales_jan.xlsx
+2026-05-18 16:41:33,782 - INFO - Loaded: sales_mar.xlsx
+2026-05-18 16:41:33,854 - INFO - Data cleaning completed.
+2026-05-18 16:41:33,862 - INFO - Data sorting completed.
+2026-05-18 16:41:33,862 - INFO - Performing calculations...
+2026-05-18 16:41:33,870 - INFO - Total Revenue           : €2,207,643.55
+2026-05-18 16:41:33,870 - INFO - Total Units Sold        : 11,057
+2026-05-18 16:41:33,870 - INFO - Total Transactions      : 2,000
+2026-05-18 16:41:33,870 - INFO - Average Order Value     : €1103.82
+
+2026-05-18 16:41:33,870 - INFO - Top 5 Best Selling Products :
+Product
+Monitor    €347,995.64
+Phone      €326,211.21
+Printer    €325,584.95
+Chair      €319,442.15
+Tablet     €308,449.27
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:41:33,870 - INFO - Bottom 3 Selling Products   :
+Product
+Unknown      €1,418.52
+Laptop     €283,192.67
+Desk       €295,349.14
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:41:33,878 - INFO - Sales by Location :
+              Revenue  Units_Sold
+Location                         
+Store A   €522,302.16        2630
+Store B   €538,392.13        2719
+Store C   €595,009.04        3007
+Store D   €551,940.22        2701
+
+2026-05-18 16:41:33,886 - INFO - Sales by Time of Day    :
+TimeOfDay
+Evening      €856,664.52
+Afternoon    €794,418.64
+Morning      €556,560.39
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:41:33,886 - INFO - Sales by Payment Type   :
+PaymentType
+Debit Card     €498,721.24
+Credit Card    €474,156.66
+Online         €435,782.08
+Cash           €416,599.23
+Gift Card      €382,384.34
+Name: TotalPrice, dtype: object
+
+2026-05-18 16:41:33,886 - INFO - Top Store Manager       : Noah (€608,430.74)
+
+2026-05-18 16:41:33,886 - INFO - Generating multi-chart dashboard...
+2026-05-18 16:41:35,662 - INFO - Dashboard saved to output\sales_dashboard.png
+2026-05-18 16:41:36,958 - INFO - File saved to output/merged_sales.xlsx
+2026-05-18 16:41:36,966 - INFO - Successfully added sheet: Executive Summary
+2026-05-18 16:41:36,966 - INFO - Successfully added sheet: Sales by Location
+2026-05-18 16:41:36,966 - INFO - Successfully added sheet: Top Products
+2026-05-18 16:41:36,966 - INFO - Successfully added sheet: Bottom Products
+2026-05-18 16:41:36,974 - INFO - Successfully added sheet: Time of Day
+2026-05-18 16:41:36,974 - INFO - Successfully added sheet: Payment Types
+2026-05-18 16:41:37,014 - INFO - DONE: All metrics saved to output/sales_analysis_report.xlsx
+2026-05-18 16:41:37,030 - INFO - Successfully attached: sales_dashboard.png
+2026-05-18 16:41:37,046 - INFO - Successfully attached: sales_analysis_report.xlsx

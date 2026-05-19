@@ -41,7 +41,7 @@ def main():
         send_email_report(
             "Weekly Sales Dashboard Report",
             summary_text,
-            "client@example.com",
+            "joespirial@hotmail.com",
             attachments,  # Pass the list here
             logger
         )
